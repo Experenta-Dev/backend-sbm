@@ -8,6 +8,15 @@ const app = express();
 const accountRoute = require('./routes/account');
 app.use('/accounts', accountRoute);
 
+const campaignRoute = require('./routes/campaign');
+app.use('/campaigns', campaignRoute);
+
+const contactRoute = require('./routes/contact');
+app.use('/contacts', contactRoute);
+
+const loginRoute = require('./routes/login');
+app.use('/login', loginRoute);
+
 var PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
