@@ -1,0 +1,22 @@
+{
+    "External_ID_SBM__c" : "external ID para inserción de datos",
+    "Name" : "Campo obligatorio",
+    "Type" : "select en SF",
+    "Website" : "",
+    "Sic" : "Código de SIC",
+    "ShippingAddress" : "dirección",
+    "Phone" : "",
+    "Industry" : "select en SF - sector",
+    "Fax" : "",
+    "Description" : "",
+    "npo02__TotalOppAmount__c" : "total donado",
+    "npo02__MembershipJoinDate__c" : "date - fecha de inicio de afiliación",
+    "Departamento__c" : "",
+    "Ciudad__c" : "",
+    "Tipo_de_Causa__c" : "select en SF",
+    "Twitter__c" : "",
+    "Cuenta_Instagram__c" : "",
+    "Canal_You_Tube__c" : "",
+    "Pagina_de_Facebook__c" : "",
+    "Informacion_General__c" : "" 
+}
