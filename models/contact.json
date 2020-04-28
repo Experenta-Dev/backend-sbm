@@ -1,0 +1,20 @@
+{
+    "External_ID_SBM__c" : "external ID para inserción de datos",
+    "Name" : "Campo obligatorio",
+    "Email" : "obligatorio",
+    "Title" : "",
+    "Phone" : "",
+    "OtherPhone" : "",
+    "MailingAddress" : "",
+    "HomePhone" : "",
+    "Fax" : "",
+    "Description" : "",
+    "Department" : "",
+    "Birthdate" : "date",
+    "Gender__c" : "select en SF",
+    "npo02__TotalOppAmount__c" : "Total donado",
+    "npo02__MembershipJoinDate__c" : "date - Fecha de inicio de afiliación",
+    "npe01__Work_Address__c" : "Dirección laboral",
+    "npe01__WorkPhone__c" : "Teléfono laboral",
+    "npe01__AlternateEmail__c" : "Correo electrónico alternativo"
+}
