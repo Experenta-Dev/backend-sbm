@@ -1,0 +1,14 @@
+{
+    "External_ID_SBM__c" : "external ID para inserción de datos",
+    "Name" : "Campo obligatorio",
+    "Email": "obligatorio",
+    "Company": "obligatorio",
+    "Title" : "Cargo del candidato",
+    "Phone" : "",
+    "MobilePhone" : "",
+    "Industry" : "sector del candidato",
+    "Fax" : "opcional",
+    "Address" : "",
+    "npsp__CompanyCountry__c" : "País de la organización",
+    "npsp__CompanyCity__c" : "Ciudad de la organización"
+}
