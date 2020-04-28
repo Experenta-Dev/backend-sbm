@@ -14,6 +14,9 @@ app.use('/campaigns', campaignRoute);
 const contactRoute = require('./routes/contact');
 app.use('/contacts', contactRoute);
 
+const leadsRoute = require('./routes/lead');
+app.use('/leads', leadsRoute);
+
 const loginRoute = require('./routes/login');
 app.use('/login', loginRoute);
 
