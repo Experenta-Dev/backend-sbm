@@ -4,6 +4,12 @@ const bodyParser = require("body-parser");
 require("dotenv/config");
 const app = express();
 
+
+// Definir rutas y métodos
+const accountRoute = require('./routes/account');
+app.use('/accounts', accountRoute);
+
+
 var PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
@@ -18,9 +24,6 @@ const client = new Client({
 client.connect( () =>{
     console.log('Connected');
 });
-
-// Definir rutas y métodos
-
 
 // inicializar
 app.listen(PORT, () => {
