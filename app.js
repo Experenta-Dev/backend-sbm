@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 require("dotenv/config");
 const app = express();
 
-// Definir rutas y métodos
+// Rutas
 const accountRoute = require('./routes/account');
 app.use('/accounts', accountRoute);
 
