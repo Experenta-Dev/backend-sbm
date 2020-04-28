@@ -1,0 +1,6 @@
+{
+    "External_ID_SBM__c" : "external ID para inserción de datos",
+    "Name" : "Campo obligatorio",
+    "Type" : "select: conference-webinar-trade show-public relations, etc...",
+    "Description" : "opcional"
+}
